@@ -67,8 +67,8 @@ form{
     border:1px solid hsl(249, 10%, 26%);
     margin-bottom: 20px;
 }
-.form-input:active{
-    border-color: hsl(248, 32%, 49%);
+.form-input{
+    outline-color: hsl(248, 32%, 49%);
 }
 .btn{
     background-color: hsl(154, 59%, 51%);
