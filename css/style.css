@@ -11,6 +11,7 @@ body{
     margin: 0;
     font-size: 16px;
     font-family: "Poppins","Arial",sans-serif;
+    font-display: swap;
     line-height: 24px;
     font-weight: normal;
     background-image: url(../images/bg-intro-desktop.png);
@@ -45,6 +46,8 @@ form{
     flex-direction: column;  
 }
 .form-top{
+    width: 100%;
+    display: block;
     padding: 20px 105px;
     background-color: hsl(248, 32%, 49%);
     border-radius: 5px;
