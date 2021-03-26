@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins","Arial",sans-serif;
+    line-height: 24px;
+    font-weight: normal;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%) ;
+}
+.form-section{
+    width: 1440px;
+    margin: 100px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+}
+.form-info{
+    width: 600px;
+    margin-right: 50px;
+    color: #fff;
+}
+.form-info-title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.main-form{
+    width: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;  
+}
+.form-top{
+    padding: 20px 105px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.form-top-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.form-top span{
+    color: #fff;
+}
+.form-wrapper{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+}
+.form-input{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border:1px solid hsl(249, 10%, 26%);
+    margin-bottom: 20px;
+}
+.form-input:active{
+    border-color: hsl(248, 32%, 49%);
+}
+.btn{
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.bottom-info{
+    color: hsl(249, 10%, 26%);
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.bottom-info__link{
+    color:  hsl(0, 100%, 74%);
+    text-decoration: none;
+}
