@@ -21,13 +21,13 @@ body{
     margin: 100px auto 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 100px 20px;
 }
 .form-info{
     max-width: 600px;
     color: #fff;
     flex-wrap: wrap;
+    margin-right: 50px;
 }
 .form-info-title{
     font-size: 50px;
