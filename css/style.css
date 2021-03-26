@@ -29,6 +29,9 @@ body{
     flex-wrap: wrap;
     margin-right: 100px;
 }
+a{
+    text-decoration: none;
+}
 .form-info-title{
     font-size: 50px;
     font-weight: 700;
